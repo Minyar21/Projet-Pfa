@@ -1,0 +1,61 @@
+.interaction-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 1100px;
+}
+
+.interaction-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.interaction-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.client-list {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.client {
+  padding: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.client.active {
+  background-color: #f4f4f4;
+}
+
+.social-stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card h4 {
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+}
+.interaction-content .title{
+  margin-bottom: 30px;
+}
+

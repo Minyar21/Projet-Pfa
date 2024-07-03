@@ -1,0 +1,61 @@
+.edit-profile {
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Aligner les éléments en colonne */
+  align-items: center; /* Centrer horizontalement */
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%; /* Utilisation de la largeur totale disponible */
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: calc(100% - 16px); /* Largeur calculée pour ajuster les padding */
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.customer-table {
+  margin-top: 20px;
+  width: 100%; /* Utilisation de la largeur totale disponible */
+}
+
+.customer-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.customer-table th {
+  background-color: #f4f4f4;
+}
+
+form .EDIT {
+  margin-bottom: 20px;
+  text-align: center; /* Centrer le texte */
+}
+
+.bouton {
+  margin-left: 0; /* Supprimer la marge à gauche */
+  background: #cae6fc;
+  padding: 10px 20px; /* Augmenter la taille du bouton */
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease; /* Ajouter une transition */
+}
+
+.bouton:hover {
+  background: #a7d6f5;
+}
